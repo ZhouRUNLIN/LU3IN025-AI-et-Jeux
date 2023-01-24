@@ -15,5 +15,5 @@ def generate_pref_spe(n:int):
         random.shuffle(l)
         pref_spe.append([1]+l)
     for i in range(n-9):
-        pref_spe[random.randint(0,9)][0] += 1
+        pref_spe[random.randint(0,8)][0] += 1
     return pref_spe
