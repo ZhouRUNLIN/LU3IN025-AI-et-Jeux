@@ -29,14 +29,15 @@ def hospital_algorithm(mat_patient,mat_hospital):
         patient = list_patient_free[0]
         hospital = mat_patient[patient][list_next_patient_choice[patient]]
         if len(list_hospital[hospital]) < mat_hospital[hospital][0]: # Si H n’a pas encore atteint sa capacité max
-            list_hospital[hospital].append(patient)
+            list_hospital[hospital]=insert_patient(list_hospital[hospital],patient,mat_hospital[hospital][1:])
             list_patient_free.pop(0)
         else:
             patient_compared = list_hospital[hospital][-1]
             if mat_hospital[hospital][1:].index(patient) < mat_hospital[hospital][1:].index(patient_compared): # Si H préfère I à I′
                 list_patient_free.pop(0)
                 list_patient_free.append(patient_compared)
-                list_hospital[hospital][-1] = patient
+                list_hospital[hospital].remove(patient_compared)
+                list_hospital[hospital] = insert_patient(list_hospital[hospital],patient,mat_hospital[hospital][1:])
         list_next_patient_choice[patient] += 1
     return list_hospital
 
@@ -50,7 +51,7 @@ def hospital_algorithm_Hoptimized(mat_patient,mat_hospital):
         patient = mat_hospital[hospital][list_next_hospital_choice[hospital]]
         if patient in list_patient_free: # Si l'interne est libre aussi
             list_patient_free.remove(patient)
-            list_hospital[hospital].append(patient)
+            list_hospital[hospital] = insert_patient(list_hospital[hospital],patient,mat_hospital[hospital][1:])
             if len(list_hospital[hospital]) == mat_hospital[hospital][0]:
                 list_hospital_free.remove(hospital)
         else:
@@ -60,7 +61,7 @@ def hospital_algorithm_Hoptimized(mat_patient,mat_hospital):
                     hospital_compared = i
                     break
             if mat_patient[patient].index(hospital) < mat_patient[patient].index(hospital_compared):
-                list_hospital[hospital].append(patient)
+                list_hospital[hospital] = insert_patient(list_hospital[hospital],patient,mat_hospital[hospital][1:])
                 if len(list_hospital[hospital]) == mat_hospital[hospital][0]:
                     list_hospital_free.remove(hospital)
                 list_hospital[hospital_compared].remove(patient)
@@ -69,8 +70,17 @@ def hospital_algorithm_Hoptimized(mat_patient,mat_hospital):
         list_next_hospital_choice[hospital] += 1
     return list_hospital
 
-
-
+def insert_patient(list_hospital_assignment,patient,preference):
+    """
+    Insérer les patients par ordre de préférence
+    """
+    if len(list_hospital_assignment) == 0:
+        return [patient]
+    for i in range(len(list_hospital_assignment)):
+        if preference.index(patient) < preference.index(list_hospital_assignment[i]):
+            list_hospital_assignment.insert(i,patient)
+            return list_hospital_assignment
+    return list_hospital_assignment+[patient]
 
 
 def stability_verification(assignment,mat_patient,mat_hospital):
