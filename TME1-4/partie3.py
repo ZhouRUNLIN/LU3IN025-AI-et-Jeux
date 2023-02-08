@@ -1,11 +1,15 @@
 import partie1
 import partie2
+import os
 
-def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int):
+def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int,maximize_u = True):
     n_etu = len(pref_etu)
     n_spe = len(pref_spe)
     f = open(str(k)+"-premier_choix.lp","w+")
-    f.write("Minimize"+"\n") #Minimize
+    if maximize_u:
+        f.write("Maximize"+"\n") #Maximize
+    else:
+        f.write("Minimize"+"\n") #Minimize
     # generate the object to be minimized
     str_temp = ""
     for i in range(n_etu):
@@ -44,12 +48,6 @@ def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int):
         f.write(str_temp1+"\n")
         f.write(str_temp2+"\n")
     
-    f.write("Bounds"+"\n")
-    # part Bounds
-    for i in range(n_etu):
-        for j in range(n_spe):
-            f.write("0 <= "+"c"+str(i)+"_"+str(j)+" <= 1"+"\n") #我想写只在0和1之间选的但是不知道怎么写，所以先写属于[0,1]了
-    
     f.write("Binary"+"\n")
     # part Binary
     str_temp = ""
@@ -59,3 +57,23 @@ def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int):
     f.write(str_temp[0:-1]+"\n")
 
     f.write("End"+"\n")
+    
+def find_minimum_k(pref_etu,pref_spe,keep_files = True, maximize_u = True):
+    k = 1
+    os.system("rm -f *.lp")
+    os.system("rm -f *.sol")
+    while k < 9:
+        generate_pl_egalitarian_criterion(pref_etu, pref_spe, k, True)
+        os.system("gurobi_cl ResultFile=affectation.sol " + str(k) + "-premier_choix.lp")
+        f = open("affectation.sol")
+        l = f.readline()
+        if len(l)!=0:
+            if not keep_files:
+                os.system("rm -f *.lp")
+                os.system("rm -f *.sol")
+            return k
+        k += 1
+    if not keep_files:
+        os.system("rm -f *.lp")
+        os.system("rm -f *.sol")
+    return -1
