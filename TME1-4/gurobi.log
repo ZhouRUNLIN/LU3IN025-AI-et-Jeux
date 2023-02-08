@@ -1264,3 +1264,1139 @@ Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
 
 Wrote result file 'affectation.sol'
 
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 1-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xefd4a7bd
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 2-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x669602fc
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 3-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x00034585
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 4-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xae07648b
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 0 rows and 93 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 5-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xd866cf48
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 0 rows and 78 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 6-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x942575b3
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 0 rows and 66 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:54:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 7-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xba178be7
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 146.0000000
+Presolve removed 27 rows and 68 columns
+Presolve time: 0.00s
+Presolved: 13 rows, 31 columns, 62 nonzeros
+Found heuristic solution: objective 149.0000000
+Variable types: 0 continuous, 31 integer (31 binary)
+
+Root relaxation: objective 1.620000e+02, 10 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     162.0000000  162.00000  0.00%     -    0s
+
+Explored 1 nodes (10 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 162 149 146 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.620000000000e+02, best bound 1.620000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 14:55:52 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file max_utility.lp
+Reading time = 0.00 seconds
+: 20 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 20 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x21604171
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 88.0000000
+Presolve time: 0.00s
+Presolved: 20 rows, 99 columns, 198 nonzeros
+Variable types: 0 continuous, 99 integer (99 binary)
+
+Root relaxation: objective 1.630000e+02, 20 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     163.0000000  163.00000  0.00%     -    0s
+
+Explored 1 nodes (20 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 163 88 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.630000000000e+02, best bound 1.630000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation_max_utility.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 1-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x35040c91
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 2-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xbc027139
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 3-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xbd91a7cc
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 4-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xf9877cd5
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 5-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x008dfd37
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 6-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x4f02de54
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 133.0000000
+Presolve removed 35 rows and 91 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 8 columns, 16 nonzeros
+Found heuristic solution: objective 149.0000000
+Variable types: 0 continuous, 8 integer (8 binary)
+
+Root relaxation: cutoff, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0       149.00000  149.00000  0.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 149 133 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.490000000000e+02, best bound 1.490000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 3-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xbd91a7cc
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file max_utility.lp
+Reading time = 0.00 seconds
+: 20 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 20 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x0a34a2d7
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 100.0000000
+Presolve time: 0.00s
+Presolved: 20 rows, 99 columns, 198 nonzeros
+Variable types: 0 continuous, 99 integer (99 binary)
+
+Root relaxation: objective 1.560000e+02, 24 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     156.0000000  156.00000  0.00%     -    0s
+
+Explored 1 nodes (24 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 156 100 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.560000000000e+02, best bound 1.560000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation_max_utility.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:09:50 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 6-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xcf8b8596
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 133.0000000
+Presolve removed 35 rows and 91 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 8 columns, 16 nonzeros
+Variable types: 0 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 1.300000e+02, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     130.0000000  130.00000  0.00%     -    0s
+
+Explored 1 nodes (4 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 130 133 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.300000000000e+02, best bound 1.300000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation_max_utility.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 1-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x9f78d1a9
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 2-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x5ca17f93
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 3-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xb8c8a1d5
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 4-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xae438dda
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 5-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x3e0965e2
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 6-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xe0d6f523
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 23 rows and 67 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 7-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x8313cc81
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 126.0000000
+Presolve removed 20 rows and 49 columns
+Presolve time: 0.00s
+Presolved: 20 rows, 50 columns, 100 nonzeros
+Variable types: 0 continuous, 50 integer (50 binary)
+
+Root relaxation: objective 1.530000e+02, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     153.0000000  153.00000  0.00%     -    0s
+
+Explored 1 nodes (19 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 153 126 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.530000000000e+02, best bound 1.530000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 3-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0xb8c8a1d5
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file max_utility.lp
+Reading time = 0.00 seconds
+: 20 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 20 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x62718fba
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 100.0000000
+Presolve time: 0.00s
+Presolved: 20 rows, 99 columns, 198 nonzeros
+Variable types: 0 continuous, 99 integer (99 binary)
+
+Root relaxation: objective 1.530000e+02, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     153.0000000  153.00000  0.00%     -    0s
+
+Explored 1 nodes (19 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 153 100 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.530000000000e+02, best bound 1.530000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation_max_utility.sol'
+
+
+Gurobi 10.0.1 (mac64[x86], gurobi_cl) logging started Wed Feb  8 15:15:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-02-02
+Using license file /Library/gurobi1001/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file 7-premier_choix.lp
+Reading time = 0.00 seconds
+: 40 rows, 99 columns, 198 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 40 rows, 99 columns and 198 nonzeros
+Model fingerprint: 0x409b8a0b
+Variable types: 0 continuous, 99 integer (99 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 126.0000000
+Presolve removed 20 rows and 49 columns
+Presolve time: 0.00s
+Presolved: 20 rows, 50 columns, 100 nonzeros
+Variable types: 0 continuous, 50 integer (50 binary)
+
+Root relaxation: objective 1.000000e+02, 23 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     100.0000000  100.00000  0.00%     -    0s
+
+Explored 1 nodes (23 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 100 126 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+02, best bound 1.000000000000e+02, gap 0.0000%
+
+Wrote result file 'affectation_max_utility.sol'
+
