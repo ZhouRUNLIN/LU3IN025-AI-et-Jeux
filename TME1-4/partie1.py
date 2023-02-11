@@ -1,4 +1,10 @@
 def read_pref_etu(file_path:str):
+    """
+    Input :
+        file_path str : Le chemin du fichier étudiant qui doit être chargé
+    Return : 
+        list (int ** 2) : Un tableau à deux dimensions représentant les préférences des étudiants
+    """
     file_etu = open(file_path, "r")
     content = file_etu.readlines()  
     file_etu.close()
@@ -10,6 +16,12 @@ def read_pref_etu(file_path:str):
     return content
 
 def read_pref_spe(file_path:str):
+    """
+    Input :
+        file_path str : Le chemin du fichier parcour qui doit être chargé
+    Return : 
+        list (int ** 2) : Un tableau à deux dimensions représentant les préférences des parcours. Attention : La première colonne est la capacité des parcours
+    """
     file_spe = open(file_path, "r")
     content = file_spe.readlines()  
     file_spe.close()
@@ -22,7 +34,15 @@ def read_pref_spe(file_path:str):
     return content
 
 def hospital_algorithm(mat_patient,mat_hospital):
-    list_patient_free = [i for i in range(len(mat_patient))] # La liste que contient les internes libres
+    """
+    Cet GS algorithme est prioritaire pour les étudiants/patients.
+    Input : 
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+    Return : 
+        list (int ** 2) : Un tableau 2D d'affectations de patients. list_hospital[i] représente les numéros des patients hébergés par l'hôpital numéroté i.
+    """
+    list_patient_free = [i for i in range(len(mat_patient))] # La liste qui contient les internes libres
     list_next_patient_choice = [0 for i in range(len(mat_patient))] # list_next_patient_choice[patient] : le prochain hôpital choisi par l'interne
     list_hospital = [[] for i in range(len(mat_hospital))] # L'affectation des internes
     while len(list_patient_free) != 0:
@@ -42,6 +62,14 @@ def hospital_algorithm(mat_patient,mat_hospital):
     return list_hospital
 
 def hospital_algorithm_Hoptimized(mat_patient,mat_hospital):
+    """
+    Cet GS algorithme est prioritaire pour les parcours/hôpitals.
+    Input : 
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+    Return : 
+        list (int ** 2) : Un tableau 2D d'affectations de patients. list_hospital[i] représente les numéros des patients hébergés par l'hôpital numéroté i.
+    """
     list_next_hospital_choice = [1 for i in range(len(mat_hospital))] # list_next_hospital_choice[hospital] : la prochaine interne choisi par l'hôpital
     list_patient_free = [i for i in range(len(mat_patient))] # La liste que contient les internes libres
     list_hospital_free = [i for i in range(len(mat_hospital))] # La liste que contient les hôpitals libres
@@ -72,7 +100,13 @@ def hospital_algorithm_Hoptimized(mat_patient,mat_hospital):
 
 def insert_patient(list_hospital_assignment,patient,preference):
     """
-    Insérer les patients par ordre de préférence
+    Insérer les patients par ordre de préférence (ordre décroissant)
+    Input : 
+        list_hospital_assignment list (int) : tableau en attente d'insertion
+        patient int : L'élément à insérer dans le tableau (le numéro du patient)
+        preference list (int) : La préférence de l'hôpital pour tous les patients, où le patient spécifié est sur le point d'être admis.
+    Return :
+        list (int) : Tableau après insertion
     """
     if len(list_hospital_assignment) == 0:
         return [patient]
@@ -85,7 +119,13 @@ def insert_patient(list_hospital_assignment,patient,preference):
 
 def stability_verification(assignment,mat_patient,mat_hospital):
     """
-    Nous comparons toutes les combinaisons de (patient, hôpital) et vérifions si c'est instable
+    Comparer toutes les combinaisons de (patient, hôpital) et vérifier si c'est instable
+    Input :
+        assignment list (int ** 2) : Un tableau 2D d'affectations de patients. assignment[i] représente les numéros des patients hébergés par l'hôpital numéroté i.
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+    Return :
+        Boolean : True s'il n'existe pas des paires instables, False sinon
     """
     for patient in range(len(mat_patient)):
         for hospital in range(len(mat_hospital)):

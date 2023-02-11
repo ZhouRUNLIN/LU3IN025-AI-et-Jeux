@@ -4,6 +4,17 @@ from subprocess import run, DEVNULL
 import os
 
 def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int,maximize_u = True):
+    """
+    Générer un fichier PL pour juger s'il existe une solution lorsque les étudiants et le parcours ne choisissent que les k meilleures préférences. 
+    Si maximize_u = True, le résultat d'exécution du fichier PL renvoie le cas où l'utilitaire est le plus grand, sinon c'est le plus petit.
+    Input :
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+        k int : Choisir les k meilleures préférences
+        maximize_u Boolean : True = Efficacité ; False = Equité
+    Return :
+        None
+    """
     n_etu = len(pref_etu)
     n_spe = len(pref_spe)
     f = open(str(k)+"-premier_choix.lp","w+")
@@ -61,6 +72,16 @@ def generate_pl_egalitarian_criterion(pref_etu,pref_spe,k:int,maximize_u = True)
     f.close()
     
 def find_minimum_k(pref_etu,pref_spe,keep_files = True, maximize_u = True):
+    """
+    Trouver le plus petit ktel qu'il existe une solution
+    Input :
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+        keep_files Boolean : Si False, supprimer les fichiers sol et lp générés après l'exécution
+        maximize_u Boolean : True = Efficacité ; False = Equité
+    Return :
+        int : k minimal
+    """
     k = 1
     os.system("rm -f *.lp")
     os.system("rm -f *.sol")
@@ -81,6 +102,14 @@ def find_minimum_k(pref_etu,pref_spe,keep_files = True, maximize_u = True):
     return -1
 
 def generate_pl_max_utility(pref_etu,pref_spe):
+    """
+    Générer un fichier PL pour trouver l'utilité maximale parmi toutes les combinaisons
+    Input :
+        mat_patient list (int ** 2) : Tableau 2D des préférences des étudiants/patients
+        mat_hospital list (int ** 2) : Tableau 2D des préférences des parcours/hôpitals. Attention : La première colonne est la capacité
+    Return :
+        None
+    """
     n_etu = len(pref_etu)
     n_spe = len(pref_spe)
     f = open("max_utility.lp","w+")
