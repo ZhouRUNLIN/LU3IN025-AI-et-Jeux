@@ -32,9 +32,9 @@ print(l)
 f.close()
 
 #Q13
-partie3.generate_pl_egalitarian_criterion(pref_etu,pref_spe,k_min,False)
+partie3.generate_pl_egalitarian_criterion(pref_etu,pref_spe,k_min,True)
 run("gurobi_cl ResultFile=affectation_max_utility.sol "+str(k_min)+"-premier_choix.lp", stdout=DEVNULL, stderr=DEVNULL, shell=True)
-print("Q13 : Minimum utility when k=k*:")
+print("Q13 : Maximum utility when k=k*:")
 f = open("affectation_max_utility.sol")
 l = f.readline()
 print(l)
